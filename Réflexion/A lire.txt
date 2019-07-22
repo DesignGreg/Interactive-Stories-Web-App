@@ -1,0 +1,8 @@
+Stockage côté client VueJS:
+https://fr.vuejs.org/v2/cookbook/client-side-storage.html
+
+Store et localStorage:
+https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store
+
+Modules de Vuex:
+https://vuex.vuejs.org/guide/modules.html
