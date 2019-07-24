@@ -1,4 +1,4 @@
-<!-- Load a JSON file and let the player goes through the story -->
+<!-- Button to load a JSON file and opening the Reader component -->
 
 <template>
   

@@ -1,0 +1,22 @@
+-- Stockage côté client VueJS --
+https://fr.vuejs.org/v2/cookbook/client-side-storage.html
+
+-- Store et localStorage --
+https://www.mikestreety.co.uk/blog/vue-js-using-localstorage-with-the-vuex-store
+
+-- Modules de Vuex --
+https://vuex.vuejs.org/guide/modules.html
+
+
+-- Drag and Drop --
+https://www.w3schools.com/html/html5_draganddrop.asp
+
+https://stackoverflow.com/questions/7278409/html5-drag-and-drop-to-move-a-div-anywhere-on-the-screen
+
+* Plugin
+https://github.com/Esvalirion/vue-drag-it-dude
+
+-- Tests --
+https://vue-test-utils.vuejs.org/
+
+

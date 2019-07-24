@@ -1,4 +1,4 @@
-<!-- Load a JSON file and let the player goes through the story -->
+<!-- Button to delete a scene -->
 
 <template>
   

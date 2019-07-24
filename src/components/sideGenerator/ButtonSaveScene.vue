@@ -1,4 +1,4 @@
-<!-- Load a JSON file and let the player goes through the story -->
+<!-- Button to save the modifications done to a scene -->
 
 <template>
   

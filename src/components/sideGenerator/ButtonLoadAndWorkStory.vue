@@ -1,4 +1,4 @@
-<!-- Button to save an interactive story and export it as a JSON file -->
+<!-- Button to load a JSON file and opening the Board component -->
 
 <template>
   
