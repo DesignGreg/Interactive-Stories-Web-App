@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <Header title='Interactive Stories Web App'></Header>
+    <Menu></Menu>
+    <Board></Board>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/coreGenerator/Header.vue'
+import Menu from './components/coreGenerator/Menu.vue'
+import Board from './components/coreGenerator/Board.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Header,
+    Menu,
+    Board
   }
 }
 </script>
@@ -21,8 +28,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 0 20px 20px 20px;
 }
 </style>

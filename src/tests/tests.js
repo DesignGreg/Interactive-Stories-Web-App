@@ -43,11 +43,18 @@ Board.vue
 
 10. The user can give a title to its story using the input
 
-11. The user can export his story by clicking on the "Export" button to get a JSON file.
 
-12. After having clicked on the "Export" button, a prompt box tells the user the save is successfull and ask him if he wants to immediately try his story
+Menu.vue
 
-13. If the save has failed, a prompt box tells the user there has been a problem
+1. The user can export his story by clicking on the "Export" button to get a JSON file.
+
+2. After having clicked on the "Export" button, a prompt box tells the user the save is successfull and ask him if he wants to immediately try his story
+
+3. If the save has failed, a prompt box tells the user there has been a problem
+
+4. When the user clicks on "Delete the Story" button, it deletes it from the Store
+
+5. Then it deleted it from the localStorage
 
 
 WordProcessor.vue
@@ -80,13 +87,49 @@ WordProcessor.vue
 
 Reader.vue
 
-1. The component gets its info from the JSON file, based upon the ID of the story, then the ID of the last scene and the info located in localStorage
+1. The component gets its info from the JSON file
 
-2. When opening a new story, the progress of the player are saved in localStorage
+2. The component sends the info to the Store
 
-3. When the player's health points drop below 0, a prompt box ask the user if he wants to try again or not
+3. Using the ID of the story, the component will check if there is a save in the localStorage
 
-4. When the player's health points drop below 0, the save of this story in localStorage is deleted
+4. If there is a save, using the IF of the last scene, the component will update the info and send it to the Store
+
+5. When opening a new story, the progress of the player are saved in localStorage
+
+6. When the player's health points drop below 0, a prompt box ask the user if he wants to try again or not
+
+7. When the player's health points drop below 0, the save of this story in localStorage is deleted
+
+
+--Store--
+
+Store.js Module Play
+
+1. After the user's choice, the news stats are saved in the Store
+
+2. After the save in the Store, the new stats are also saved in the localStorage
+
+3. When a scene causes a health points lost for the player, the stats are updated
+
+4. The new stats are sent to the localStorage, using the ID of the last scene
+
+
+Store.js Module Create
+
+1. When a new story is created, the Store gives a unique ID to it
+
+2. Then the Store is updated
+
+3. Then a save in the localStorage is created
+
+4. When a new scene is created, the Store adds it
+
+5. Then it is added to the localStorage
+
+6. When two scenes are link together, their objects are updated in the Store
+
+7. Same if the localStorage
 
 */
 
