@@ -1,4 +1,4 @@
-<!-- Load a JSON file and let the player goes through the story -->
+<!-- Child component of Scene, load the data from the JSON file using the ID of the scene given by the Scene component -->
 
 <template>
   

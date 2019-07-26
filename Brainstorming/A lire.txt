@@ -19,4 +19,7 @@ https://github.com/Esvalirion/vue-drag-it-dude
 -- Tests --
 https://vue-test-utils.vuejs.org/
 
+-- Text Editor Plugin --
+https://github.com/scrumpy/tiptap
+
 
