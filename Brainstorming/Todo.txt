@@ -1,0 +1,13 @@
+First Step:
+
+1. Create a new story with the button made for it
+2. Generate an ID and all the data (empty)
+3. Send these data to the Store
+4. Open Board component (Route)
+
+Second Step:
+
+1. Delete a story with the button made for it
+2. Ask confirmation to user
+3. Remove the data from the Store
+4. Close the Board component and get back to first view (Route)

@@ -5,8 +5,8 @@
 <template>
   <main>
     <div class="board-top-menu">
+      <input class="form-control" type="text" placeholder="Story Title" v-model="storyTitle">
       <ButtonCreateNewScene class="button"></ButtonCreateNewScene>
-      <ButtonSaveScene class="button"></ButtonSaveScene>
     </div>
 
     <div class="board-frame">
@@ -18,13 +18,16 @@
 <script>
 
 import ButtonCreateNewScene from '../sideGenerator/ButtonCreateNewScene';
-import ButtonSaveScene from '../sideGenerator/ButtonSaveScene';
 
 export default {
   name: 'Board',
   components: {
-    ButtonCreateNewScene,
-    ButtonSaveScene
+    ButtonCreateNewScene
+  },
+  data: function() {
+    return {
+      storyTitle: ''
+    }
   }
 }
 </script>
@@ -33,6 +36,11 @@ export default {
 
   main {
     text-align: right;
+  }
+
+  input {
+    width: 40%;
+    display: inline-block;
   }
 
   .board-top-menu {
@@ -44,7 +52,7 @@ export default {
   }
 
   .button {
-    margin: 0 10px 0 10px;
+    margin: 0 10px 0 20px;
   }
 
   .board-frame {
