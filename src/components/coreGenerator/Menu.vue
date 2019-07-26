@@ -19,6 +19,8 @@
 
 import ButtonCreateNewStory from '../sideGenerator/ButtonCreateNewStory';
 import ButtonLoadAndWorkStory from '../sideGenerator/ButtonLoadAndWorkStory';
+import ButtonSaveStory from '../sideGenerator/ButtonSaveStory';
+import ButtonDeleteStory from '../sideGenerator/ButtonDeleteStory';
 import ButtonLoadAndPlayStory from '../sideReader/ButtonLoadAndPlayStory';
 
 export default {
@@ -26,6 +28,8 @@ export default {
   components: {
     ButtonCreateNewStory,
     ButtonLoadAndWorkStory,
+    ButtonSaveStory,
+    ButtonDeleteStory,
     ButtonLoadAndPlayStory
   }
 }

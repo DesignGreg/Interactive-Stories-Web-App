@@ -85,21 +85,25 @@ WordProcessor.vue
 
 --Reader--
 
-Reader.vue
+ReaderWrapper.vue
 
-1. The component gets its info from the JSON file
+1. When opening a new story, the progress of the player are saved in localStorage
+
+2. The component gets its info from the JSON file, scenes ID
+
+ReaderContent.vue
+
+1. The component gets its info from the JSON file, text and content
 
 2. The component sends the info to the Store
 
 3. Using the ID of the story, the component will check if there is a save in the localStorage
 
-4. If there is a save, using the IF of the last scene, the component will update the info and send it to the Store
+4. If there is a save, using the ID of the last scene, the component will update the info and send it to the Store
 
-5. When opening a new story, the progress of the player are saved in localStorage
+5. When the player's health points drop below 0, a prompt box ask the user if he wants to try again or not
 
-6. When the player's health points drop below 0, a prompt box ask the user if he wants to try again or not
-
-7. When the player's health points drop below 0, the save of this story in localStorage is deleted
+6. When the player's health points drop below 0, the save of this story in localStorage is deleted
 
 
 --Store--
