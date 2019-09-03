@@ -14,16 +14,15 @@ export default {
     title: String,
   }
 }
-</script scoped>
+</script>
 
 <style scoped>
-
   .header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1rem;
   }
 
- .title {
-   font-size: 60px;
- }
+  .title {
+    font-size: 4rem;
+  }
 </style>

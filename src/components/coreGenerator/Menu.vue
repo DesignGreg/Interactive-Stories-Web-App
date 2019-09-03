@@ -4,7 +4,7 @@
      Shows a button "Load & Play" to load a JSON file and try the story 
      
      Once there is a story (new or loaded)
-     Shows a button "Save the story" = the user can export the entire story as a JSON file (each story has a unique ID with getTime)
+     Shows a button "Save the story" = save in the store and localStorage + export the entire story as a JSON file (each story has a unique ID with getTime), download screen for the user
      Shows a button "Delete the story" -->
 
 <template>
@@ -39,12 +39,12 @@ export default {
   .nav {
     background-color: black;
     display: inline-block;
-    margin: 10px 0 10px 0;
-    padding: 5px 0 5px 0;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     width: 100%;
   }
 
   .button {
-    margin: 0 10px 0 10px;
+    margin: 0 1rem 0 1rem;
   }
 </style>

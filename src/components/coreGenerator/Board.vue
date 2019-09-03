@@ -46,18 +46,18 @@ export default {
   .board-top-menu {
     background-color: black;
     display: inline-block;
-    margin: 10px 0 10px 0;
-    padding: 5px 0 5px 0;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     width: 100%;
   }
 
   .button {
-    margin: 0 10px 0 20px;
+    margin: 0 1rem 0 1rem;
   }
 
   .board-frame {
-    border: 2px solid Black;
-    height: 800px;
+    border: 0.2rem solid Black;
+    height: 60rem;
   }
 
 </style>

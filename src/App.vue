@@ -4,6 +4,7 @@
     <Header title='Interactive Stories Web App'></Header>
     <Menu></Menu>
     <Board></Board>
+    <Footer></Footer>
 
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from './components/coreGenerator/Header.vue'
 import Menu from './components/coreGenerator/Menu.vue'
 import Board from './components/coreGenerator/Board.vue'
+import Footer from './components/coreGenerator/Footer.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
     Menu,
-    Board
+    Board,
+    Footer
   }
 }
 </script>
@@ -28,6 +31,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 20px 20px 20px;
+  margin: 0 2rem 2rem 2rem;
+  font-size: 62.5%;
 }
 </style>
